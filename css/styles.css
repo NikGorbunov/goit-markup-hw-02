@@ -186,6 +186,17 @@ color: #757575;
 /* ========== END TEAM ==========*/
 
 /* ========== FOOTER ==========*/
+.footer-list-link {
+font-family:  var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration: none;
+/*color: #FFFFFF;*/
+}
+
 .footer-link {
 font-family: var(--main-font);
 font-size: 14px;
