@@ -76,7 +76,7 @@ ul {
 .address-mail-link:hover,
 .address-mail-link:focus,
 .address-tel-link:hover,
-.address-tel-link:focus,
+.address-tel-link:focus {
   color: var(--accent-color);
 }
 
