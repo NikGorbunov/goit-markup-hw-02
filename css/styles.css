@@ -6,15 +6,16 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --hero-background-color: #2f303a;
-
-    --footer-background-color: #2f303a;
+  --footer-background-color: #2f303a;
     --primary-background-color: #ffffff;
     --secondary-background-color: #f5f4fa;
 }
 
 body {
   font-family: var(--main-font);
-
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  background-color: var(--primary-background-color);
 }
 
 /*========== COMPONENTS ==========*/
@@ -76,10 +77,6 @@ ul {
 .address-mail-link:focus,
 .address-tel-link:hover,
 .address-tel-link:focus,
-.footer-list-link:hover,
-.footer-list-link:focus,
-.footer-link:hover,
-.footer-link:focus {
   color: var(--accent-color);
 }
 
